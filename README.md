@@ -9,3 +9,9 @@ VnStat é uma ferramenta de monitoramento de tráfego de rede baseada em console
 
  > [!NOTE]
 >Testado no Raspberry 4 rodando **"Debian GNU/Linux 12 (bookworm)"**  
+
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```

@@ -23,4 +23,4 @@ Modifique o <code>vnstati.sh</code>  com o nome da interface de rede (voçe pode
 ---------------
 ## Configurar o CRONJOB para executar o Script .SH
 
-* Atualize o cron job para que gere as imagens com intervalo de 10 minuto. No terminal :  <code>sudo crontab -e</code> e adicione a seguinte linha no final do arquivo <code> /10 * * * * /var/www/html/vnstati/vnstati.sh </code>. Isso irá fazer com que o script rode a cada *10 minutos* gerando novas imagens as imagens Voce pode definar um timer maior de sua preferencia>[TIMER] (https://crontab.guru/) .
+* Atualize o cron job para que gere as imagens com intervalo de 10 minutos. No terminal :  <code>sudo crontab -e</code> e adicione a seguinte linha no final do arquivo <code> /10 * * * * /var/www/html/vnstati/vnstati.sh </code>. Isso irá fazer com que o script rode a cada *10 minutos* gerando novas imagens as imagens Voce pode definar um timer maior de sua preferencia>*(https://crontab.guru/)* .

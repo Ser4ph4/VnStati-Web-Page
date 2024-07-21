@@ -31,3 +31,4 @@ Para acessar seu painel de estatisticas > <code>http://localhost/vnstati</code>o
 ![alt text](screenshots/vnstati-PC.png)
 # No Mobile:  
 ![alt text](screenshots/vnstati-MOBILE.png)
+***

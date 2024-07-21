@@ -12,7 +12,7 @@ sudo apt install vnstat vnstati
  > [!NOTE]
 >Testado no Raspberry 4 rodando **"Debian GNU/Linux 12 (bookworm)"**  
 ## Como usar este repositório?
-*  **Clone este repositorio em** <code> > /var/www/html/</code>
+*  **Clone este repositório em** <code> > /var/www/html/</code>
 ```   
 git clone git@github.com:Ser4ph4/VnStati-Web-Page.git vnstati 
 ```
@@ -24,7 +24,7 @@ Modifique o <code>vnstati.sh</code>  com o nome da interface de rede (voçe pode
 ---------------
 ## Configurar o CronJob para executar o Script .SH
 
-* Atualize o cron job para que gere as imagens com intervalo de 10 minutos. No terminal :  <code>sudo crontab -e</code> e adicione a seguinte linha no final do arquivo <code> /10 * * * * /var/www/html/vnstati/vnstati.sh </code>. Isso irá fazer com que o script rode a cada *10 minutos* gerando novas imagens as imagens Voce pode definar um timer maior de sua preferencia>*(https://crontab.guru/,  "Site do CRONS exemplos") )* .  
+* Atualize o cron job para que gere as imagens com intervalo de 10 minutos. No terminal :  <code>sudo crontab -e</code> e adicione a seguinte linha no final do arquivo <code> /10 * * * * /var/www/html/vnstati/vnstati.sh </code>. Isso irá fazer com que o script rode a cada *10 minutos* gerando novas imagens, voce pode definar um timer maior de sua preferencia>*(https://crontab.guru/,  "Site do CRONS exemplos") )* .  
 Para acessar seu painel de estatisticas > <code>http://localhost/vnstati</code>ou <code>http://<server-ip>/vnstati</code>para visualizar a página. 
 ### 🖥️Screenshots
 # No PC:   

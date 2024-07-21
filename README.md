@@ -16,7 +16,7 @@ sudo apt install vnstat vnstati
 ```   
 git clone git@github.com:Ser4ph4/VnStati-Web-Page.git vnstati 
 ```
- No mesmo caminho de perrmisso de ROOT 
+ No mesmo caminho de perrmisao de *ROOT* 
 Modifique o vnstati.sh  com o nome da interface de rede (isso pode ser identificado executando ip ano terminal)
 ![alt text](image-1.png)
 

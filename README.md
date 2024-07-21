@@ -32,11 +32,11 @@ Para acessar seu painel de estatisticas > <code>http://localhost/vnstati</code>o
 # No Mobile:  
 ![alt text](screenshots/vnstati-MOBILE.png)
 ***
-Para Alterar as cores de Saida:  
+## Para Alterar as cores de Saida:  
 Edite o arquivo de configuraçao do VNSTAT  em  <code> /etc/vnstat.conf</code>
 ![alt text](image-2.png)
 
-### Para opçoes de cores visite : (https://humdi.net/vnstat/coloredit/)  
+### 🌐Para opçoes de cores visite : (https://humdi.net/vnstat/coloredit/)  
 ![alt text](image-3.png)
 
 

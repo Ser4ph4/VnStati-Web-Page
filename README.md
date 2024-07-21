@@ -12,6 +12,6 @@ sudo apt install vnstat vnstati
  > [!NOTE]
 >Testado no Raspberry 4 rodando **"Debian GNU/Linux 12 (bookworm)"**  
 ## Como usar este repositório?
-item 1 Clone este repositorio em > /var/www/html/
+* Item1  **Clone este repositorio em** <code> > /var/www/html/</code>
  
 

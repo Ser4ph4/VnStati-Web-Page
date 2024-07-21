@@ -5,7 +5,7 @@ VnStat é uma ferramenta de monitoramento de tráfego de rede baseada em console
 
 # Dependencias
 ✅Certifique-se de que <CODE>vnstat</CODE>e <code>vnstati</code>estejam instalados e configurados.  
-#### Instalaçao em Debian e similares:
+#### :trophy: Instalaçao em Debian e similares:
 ```    
 sudo apt install vnstat vnstati
 ```
@@ -17,7 +17,7 @@ sudo apt install vnstat vnstati
 git clone git@github.com:Ser4ph4/VnStati-Web-Page.git vnstati 
 ```
  No mesmo caminho de permisao de *ROOT* 
-Modifique o <code>vnstati.sh</code>  com o nome da interface de rede (voçe pode listar suas interfaces com o comando : <code>*ip a* </code>no terminal)
+Modifique o <code>vnstati.sh</code>  com o nome da interface de rede (voçe pode listar suas interfaces com o comando : <code>*ip a*</code>no terminal)
 
 ![alt text](image-1.png)
 ---------------
@@ -25,3 +25,4 @@ Modifique o <code>vnstati.sh</code>  com o nome da interface de rede (voçe pode
 
 * Atualize o cron job para que gere as imagens com intervalo de 10 minutos. No terminal :  <code>sudo crontab -e</code> e adicione a seguinte linha no final do arquivo <code> /10 * * * * /var/www/html/vnstati/vnstati.sh </code>. Isso irá fazer com que o script rode a cada *10 minutos* gerando novas imagens as imagens Voce pode definar um timer maior de sua preferencia>*(https://crontab.guru/)* .  
 Para acessar seu painel de estatisticas > <code>http://localhost/vnstati</code>ou <code>http://<server-ip>/vnstati</code>para visualizar a página. 
+### 🖥️Screenshots

@@ -13,5 +13,6 @@ sudo apt install vnstat vnstati
 >Testado no Raspberry 4 rodando **"Debian GNU/Linux 12 (bookworm)"**  
 ## Como usar este repositório?
 *  **Clone este repositorio em** <code> > /var/www/html/</code>
+```  git clone git@github.com:Ser4ph4/VnStati-Web-Page.git vnstati ```
  
 

@@ -5,8 +5,8 @@ VnStat é uma ferramenta de monitoramento de tráfego de rede baseada em console
 
 # Dependencias
 ✅Certifique-se de que <CODE>vnstat</CODE>e <code>vnstati</code>estejam instalados e configurados.  
-Instalaçao em Debian e variados:
-```   
+#### Instalaçao em Debian e variados:
+```    
 sudo apt install vnstat vnstati
 ```
  > [!NOTE]

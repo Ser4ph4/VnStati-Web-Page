@@ -16,9 +16,9 @@ sudo apt install vnstat vnstati
 ```   
 git clone git@github.com:Ser4ph4/VnStati-Web-Page.git vnstati 
 ```
- No mesmo caminho de permisao de *ROOT* 
+ ⚠️No mesmo caminho de permissão de *ROOT* 
 Modifique o <code>vnstati.sh</code>  com o nome da interface de rede (voçe pode listar suas interfaces com o comando : <code>*ip a*</code>no terminal)   
- 
+
 ![alt text](image-1.png)
 ---------------
 ## Configurar o CRONJOB para executar o Script .SH
